@@ -7,6 +7,8 @@
 
 ## About
 
+**Note regarding my fork:** I've significantly sped up the animations and transitions.
+
 This package give you the ability to observe changes to keyboard state using the `Keyboard` `ObservableObject` type.
 
 It also provides a `KeyboardObservingView` that adjusts it's content to avoid the keyboard, and a `.keyboardObserving()` ViewModifier that adjusts the modified view to avoid the keyboard.
