@@ -56,7 +56,7 @@ extension Keyboard {
 
     // MARK: - Static Properties
 
-    fileprivate static let `default` = Keyboard.State(animationDuration: 0.10, height: 0)
+    fileprivate static let `default` = Keyboard.State(animationDuration: 0.05, height: 0)
 
     // MARK: - Static Methods
 
@@ -77,7 +77,7 @@ extension Keyboard {
       // Get the duration of the keyboard animation
       let animationDuration =
         (userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? NSNumber)?.doubleValue
-        ?? 0.10
+        ?? 0.05
 
       // Get keyboard height
       var height: CGFloat = 0
